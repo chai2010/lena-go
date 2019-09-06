@@ -1,6 +1,5 @@
-# lena-go
+// +build ignore
 
-```go
 package main
 
 import (
@@ -18,4 +17,3 @@ func main() {
 
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
-```
